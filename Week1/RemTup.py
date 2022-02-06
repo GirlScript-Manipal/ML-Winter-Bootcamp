@@ -5,3 +5,4 @@ def emptytuples(List):
 List=[( ),("Harry"),("Stark"),( ),("David"),( ),("oscar"),("parker")]
 List.reverse()
 print(list(emptytuples(List)))
+
