@@ -27,8 +27,7 @@ import numpy as np
 m1 = np.array([[1,2,3],[4,5,6]])
 print(m1)
 print('\n')
-print('transpose:',m1.T)#Remove all empty tuples from a list. Perform this task using both reverse() function and filter() function.
-from typing import Tuple
+print('transpose:',m1.T
 
 
 
