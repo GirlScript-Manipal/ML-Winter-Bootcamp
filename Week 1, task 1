@@ -1,0 +1,11 @@
+#Remove all empty tuples from a list. Perform this task using both reverse() function and filter() function.
+t= [() , (14,15,16) , ("O" , "M" , "S") ,() , ("devs") , ("";"") , (169)]
+def main(variable):
+    if variable!=0:
+        return variable
+print("The original list:")
+print(t)
+m= list(filter(main,t))
+print("Result after removing all empty tuples" )
+m.reverse()
+print(m)
