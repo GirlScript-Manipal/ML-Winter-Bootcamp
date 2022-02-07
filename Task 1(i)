@@ -1,12 +1,12 @@
  #Remove all empty tuples from a list. Perform this task using both reverse() function and filter() function.
-list1= [() , (7,8,9) , ("O" , "M" , "S") ,() , ("kumos") , ("","") , (1716)]
-def funkshan(variable):
+t= [() , (7,8,9) , ("O" , "M" , "S") ,() , ("kumos") , ("","") , (1716)]
+def main(variable):
     if variable!=0:
         return variable
 print("The original list:")
-print(list1)
-list2= list(filter(funkshan,list1))
+print(t)
+m= list(filter(main,t))
 print("Result after removing all empty tuples" )
-list2.reverse()
-print(list2)
+m.reverse()
+print(m)
  
